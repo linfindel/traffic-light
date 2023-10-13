@@ -82,3 +82,8 @@ setInterval(() => {
         amber2.style.boxShadow = "";
     }, 10000);
 }, 10000);
+
+setTimeout(() => {
+    document.getElementById("loading").style.opacity = "0";
+    document.getElementById("loading").style.pointerEvents = "none";
+}, 10000);
